@@ -45,7 +45,7 @@ public class Task3 {
     private void printFibonacciRow() {
         System.out.println("Ряд Фибоначчи для "+ FibonacciList.size()+" цифр:");
         for (int i = 0; i< FibonacciList.size(); i++) {
-            System.out.println("Цифра №"+i+" в ряду Фибоначчи: "+ FibonacciList.get(i));
+            System.out.println("Число №"+i+" в ряду Фибоначчи: "+ FibonacciList.get(i));
         }
     }
 }
